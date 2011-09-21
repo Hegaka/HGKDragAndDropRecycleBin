@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494402DD142375440099AB9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494402DC142375440099AB9F /* UIKit.framework */; };
+		494402DF142375440099AB9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494402DE142375440099AB9F /* Foundation.framework */; };
+		494402E1142375440099AB9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494402E0142375440099AB9F /* CoreGraphics.framework */; };
+		494402E7142375440099AB9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494402E5142375440099AB9F /* InfoPlist.strings */; };
+		494402EA142375440099AB9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494402E9142375440099AB9F /* main.m */; };
+		494402ED142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494402EC142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.m */; };
+		494402F0142375440099AB9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494402EE142375440099AB9F /* MainWindow.xib */; };
+		494402F3142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494402F2142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.m */; };
+		494402F6142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494402F4142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.xib */; };
+		49440303142375CD0099AB9F /* AttachmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 494402FE142375CD0099AB9F /* AttachmentItem.m */; };
+		49440304142375CD0099AB9F /* GalleryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49440300142375CD0099AB9F /* GalleryButton.m */; };
+		49440305142375CD0099AB9F /* GalleryScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49440302142375CD0099AB9F /* GalleryScrollView.m */; };
+		49DE676F142377CE00743FE4 /* recyclebin.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DE676E142377CE00743FE4 /* recyclebin.png */; };
+		49DE67751423788C00743FE4 /* iconEliminateItem1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DE67711423788C00743FE4 /* iconEliminateItem1.png */; };
+		49DE67761423788C00743FE4 /* iconEliminateItem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DE67721423788C00743FE4 /* iconEliminateItem2.png */; };
+		49DE67771423788C00743FE4 /* iconEliminateItem3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DE67731423788C00743FE4 /* iconEliminateItem3.png */; };
+		49DE67781423788C00743FE4 /* iconEliminateItem4.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DE67741423788C00743FE4 /* iconEliminateItem4.png */; };
+		49DE678C14237D1500743FE4 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 49DE678914237D1500743FE4 /* COPYRIGHT */; };
+		49DE678D14237D1500743FE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 49DE678A14237D1500743FE4 /* LICENSE */; };
+		49DE678E14237D1500743FE4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 49DE678B14237D1500743FE4 /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		494402D8142375440099AB9F /* HGKDragAndDropRecycleBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGKDragAndDropRecycleBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494402DC142375440099AB9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		494402DE142375440099AB9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		494402E0142375440099AB9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		494402E4142375440099AB9F /* HGKDragAndDropRecycleBin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HGKDragAndDropRecycleBin-Info.plist"; sourceTree = "<group>"; };
+		494402E6142375440099AB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		494402E8142375440099AB9F /* HGKDragAndDropRecycleBin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGKDragAndDropRecycleBin-Prefix.pch"; sourceTree = "<group>"; };
+		494402E9142375440099AB9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494402EB142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HegakaDragAndDropRecycleBinAppDelegate.h; sourceTree = "<group>"; };
+		494402EC142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HegakaDragAndDropRecycleBinAppDelegate.m; sourceTree = "<group>"; };
+		494402EF142375440099AB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		494402F1142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HegakaDragAndDropRecycleBinViewController.h; sourceTree = "<group>"; };
+		494402F2142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HegakaDragAndDropRecycleBinViewController.m; sourceTree = "<group>"; };
+		494402F5142375440099AB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HegakaDragAndDropRecycleBinViewController.xib; sourceTree = "<group>"; };
+		494402FD142375CD0099AB9F /* AttachmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentItem.h; sourceTree = "<group>"; };
+		494402FE142375CD0099AB9F /* AttachmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentItem.m; sourceTree = "<group>"; };
+		494402FF142375CD0099AB9F /* GalleryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryButton.h; sourceTree = "<group>"; };
+		49440300142375CD0099AB9F /* GalleryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryButton.m; sourceTree = "<group>"; };
+		49440301142375CD0099AB9F /* GalleryScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryScrollView.h; sourceTree = "<group>"; };
+		49440302142375CD0099AB9F /* GalleryScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryScrollView.m; sourceTree = "<group>"; };
+		49DE676E142377CE00743FE4 /* recyclebin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recyclebin.png; sourceTree = "<group>"; };
+		49DE67711423788C00743FE4 /* iconEliminateItem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconEliminateItem1.png; sourceTree = "<group>"; };
+		49DE67721423788C00743FE4 /* iconEliminateItem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconEliminateItem2.png; sourceTree = "<group>"; };
+		49DE67731423788C00743FE4 /* iconEliminateItem3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconEliminateItem3.png; sourceTree = "<group>"; };
+		49DE67741423788C00743FE4 /* iconEliminateItem4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconEliminateItem4.png; sourceTree = "<group>"; };
+		49DE678914237D1500743FE4 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		49DE678A14237D1500743FE4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		49DE678B14237D1500743FE4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494402D5142375440099AB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494402DD142375440099AB9F /* UIKit.framework in Frameworks */,
+				494402DF142375440099AB9F /* Foundation.framework in Frameworks */,
+				494402E1142375440099AB9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494402CD142375440099AB9F = {
+			isa = PBXGroup;
+			children = (
+				49DE678914237D1500743FE4 /* COPYRIGHT */,
+				49DE678A14237D1500743FE4 /* LICENSE */,
+				49DE678B14237D1500743FE4 /* README */,
+				494402FC142375950099AB9F /* Gallery */,
+				494402E2142375440099AB9F /* HegakaDragAndDropRecycleBin */,
+				494402DB142375440099AB9F /* Frameworks */,
+				494402D9142375440099AB9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494402D9142375440099AB9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494402D8142375440099AB9F /* HGKDragAndDropRecycleBin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494402DB142375440099AB9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494402DC142375440099AB9F /* UIKit.framework */,
+				494402DE142375440099AB9F /* Foundation.framework */,
+				494402E0142375440099AB9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494402E2142375440099AB9F /* HegakaDragAndDropRecycleBin */ = {
+			isa = PBXGroup;
+			children = (
+				494402EB142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.h */,
+				494402EC142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.m */,
+				494402EE142375440099AB9F /* MainWindow.xib */,
+				494402F1142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.h */,
+				494402F2142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.m */,
+				494402F4142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.xib */,
+				494402E3142375440099AB9F /* Supporting Files */,
+			);
+			path = HegakaDragAndDropRecycleBin;
+			sourceTree = "<group>";
+		};
+		494402E3142375440099AB9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494402E4142375440099AB9F /* HGKDragAndDropRecycleBin-Info.plist */,
+				494402E5142375440099AB9F /* InfoPlist.strings */,
+				494402E8142375440099AB9F /* HGKDragAndDropRecycleBin-Prefix.pch */,
+				494402E9142375440099AB9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494402FC142375950099AB9F /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				49DE67711423788C00743FE4 /* iconEliminateItem1.png */,
+				49DE67721423788C00743FE4 /* iconEliminateItem2.png */,
+				49DE67731423788C00743FE4 /* iconEliminateItem3.png */,
+				49DE67741423788C00743FE4 /* iconEliminateItem4.png */,
+				49DE676E142377CE00743FE4 /* recyclebin.png */,
+				494402FD142375CD0099AB9F /* AttachmentItem.h */,
+				494402FE142375CD0099AB9F /* AttachmentItem.m */,
+				494402FF142375CD0099AB9F /* GalleryButton.h */,
+				49440300142375CD0099AB9F /* GalleryButton.m */,
+				49440301142375CD0099AB9F /* GalleryScrollView.h */,
+				49440302142375CD0099AB9F /* GalleryScrollView.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494402D7142375440099AB9F /* HGKDragAndDropRecycleBin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494402F9142375440099AB9F /* Build configuration list for PBXNativeTarget "HGKDragAndDropRecycleBin" */;
+			buildPhases = (
+				494402D4142375440099AB9F /* Sources */,
+				494402D5142375440099AB9F /* Frameworks */,
+				494402D6142375440099AB9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGKDragAndDropRecycleBin;
+			productName = HegakaDragAndDropRecycleBin;
+			productReference = 494402D8142375440099AB9F /* HGKDragAndDropRecycleBin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494402CF142375440099AB9F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 494402D2142375440099AB9F /* Build configuration list for PBXProject "HGKDragAndDropRecycleBin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 494402CD142375440099AB9F;
+			productRefGroup = 494402D9142375440099AB9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494402D7142375440099AB9F /* HGKDragAndDropRecycleBin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494402D6142375440099AB9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494402E7142375440099AB9F /* InfoPlist.strings in Resources */,
+				494402F0142375440099AB9F /* MainWindow.xib in Resources */,
+				494402F6142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.xib in Resources */,
+				49DE676F142377CE00743FE4 /* recyclebin.png in Resources */,
+				49DE67751423788C00743FE4 /* iconEliminateItem1.png in Resources */,
+				49DE67761423788C00743FE4 /* iconEliminateItem2.png in Resources */,
+				49DE67771423788C00743FE4 /* iconEliminateItem3.png in Resources */,
+				49DE67781423788C00743FE4 /* iconEliminateItem4.png in Resources */,
+				49DE678C14237D1500743FE4 /* COPYRIGHT in Resources */,
+				49DE678D14237D1500743FE4 /* LICENSE in Resources */,
+				49DE678E14237D1500743FE4 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494402D4142375440099AB9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494402EA142375440099AB9F /* main.m in Sources */,
+				494402ED142375440099AB9F /* HegakaDragAndDropRecycleBinAppDelegate.m in Sources */,
+				494402F3142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.m in Sources */,
+				49440303142375CD0099AB9F /* AttachmentItem.m in Sources */,
+				49440304142375CD0099AB9F /* GalleryButton.m in Sources */,
+				49440305142375CD0099AB9F /* GalleryScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494402E5142375440099AB9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494402E6142375440099AB9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		494402EE142375440099AB9F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494402EF142375440099AB9F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		494402F4142375440099AB9F /* HegakaDragAndDropRecycleBinViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494402F5142375440099AB9F /* en */,
+			);
+			name = HegakaDragAndDropRecycleBinViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494402F7142375440099AB9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		494402F8142375440099AB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		494402FA142375440099AB9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HegakaDragAndDropRecycleBin/HGKDragAndDropRecycleBin-Prefix.pch";
+				INFOPLIST_FILE = "HegakaDragAndDropRecycleBin/HGKDragAndDropRecycleBin-Info.plist";
+				PRODUCT_NAME = HGKDragAndDropRecycleBin;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		494402FB142375440099AB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HegakaDragAndDropRecycleBin/HGKDragAndDropRecycleBin-Prefix.pch";
+				INFOPLIST_FILE = "HegakaDragAndDropRecycleBin/HGKDragAndDropRecycleBin-Info.plist";
+				PRODUCT_NAME = HGKDragAndDropRecycleBin;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494402D2142375440099AB9F /* Build configuration list for PBXProject "HGKDragAndDropRecycleBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494402F7142375440099AB9F /* Debug */,
+				494402F8142375440099AB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494402F9142375440099AB9F /* Build configuration list for PBXNativeTarget "HGKDragAndDropRecycleBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494402FA142375440099AB9F /* Debug */,
+				494402FB142375440099AB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494402CF142375440099AB9F /* Project object */;
+}
