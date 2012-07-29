@@ -1,5 +1,9 @@
-//  Copyright (c) 2011 Hegaka
-//  All rights reserved
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
 #import "HegakaDragAndDropRecycleBinViewController.h"
 #import "AttachmentItem.h"
@@ -17,7 +21,7 @@
 {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
+
     // Release any cached data, images, etc that aren't in use.
 }
 
@@ -27,8 +31,8 @@
 {
     [super viewDidLoad];
     self.gallery.mainView = self.view;
-    
-    
+
+
     AttachmentItem *item = [[AttachmentItem alloc] initWithData:1 data:nil];
     [self.gallery addAttachment:item];
     [self.gallery addAttachment:item];

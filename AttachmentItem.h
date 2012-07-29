@@ -1,13 +1,17 @@
-//  Copyright (c) 2011 Hegaka
-//  All rights reserved
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
-#import <Foundation/Foundation.h>
+ #import <Foundation/Foundation.h>
 
 @interface AttachmentItem : NSObject {
-    
+
     int type;
 	NSData *data;
-    
+
 }
 
 @property (nonatomic) int type;

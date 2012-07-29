@@ -1,6 +1,9 @@
-//  Copyright (c) 2011 Hegaka
-//  All rights reserved
-
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
 #import <UIKit/UIKit.h>
 
@@ -8,14 +11,14 @@
 
 @interface GalleryButton : UIView
 {
-    
+
     id<GalleryButtonDelegate> delegate;
-    
+
     CGPoint _originalPosition;
     CGPoint _originalOutsidePosition;
-    
+
     BOOL isInScrollview;
-    
+
     // PARENT VIEW WHERE THE VIEWS CAN BE DRAGGED
     UIView *mainView;
     // SCROLL VIEW WHERE YOU GONNA PUT THE THUMBNAILS

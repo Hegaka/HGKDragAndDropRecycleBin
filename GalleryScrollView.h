@@ -1,5 +1,9 @@
-//  Copyright (c) 2011 Hegaka
-//  All rights reserved
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
 
 #import <UIKit/UIKit.h>
@@ -10,21 +14,21 @@
 
 @interface GalleryScrollView : UIView <GalleryButtonDelegate>
 {
-    
+
     id <GAlleryScrollDelegate> delegate;
-    
+
     // MAIN WINDOW WHERE YOU CAN DRAG ICONS
     UIView *mainView;
-    
+
     UIScrollView *_scrollView;
     NSMutableArray *_attachments;
-    
-    
+
+
     NSInteger *_totalSize;
-    
+
     UIImageView *_recycleBin;
     CGRect recycleBinFrame;
-    
+
 }
 
 @property (nonatomic, retain) id <GAlleryScrollDelegate> delegate;
